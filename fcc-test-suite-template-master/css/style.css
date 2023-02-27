@@ -1,23 +1,58 @@
 @media only screen and (max-width: 600px) {
     body {
-      background-color: lightblue;
+      background-color: rgb(205, 235, 245);
     }
-  }
-  
-  #nav-bar{
-      position: fixed;
-      width: 100vw;
-      display: flex;
-      justify-content: right;
-  }
-  
-  .flex-container {
+}
+body {
+    background-color: rgb(232, 248, 253);
+    height: 100vh;
+    width: 100vw;
+}
+#nav-bar{
+    position: fixed;
+    width: 100vw;
     display: flex;
-    background-color: DodgerBlue;
+    justify-content: right;
+}
+.nav-link{
+    margin: 0 1em;
+    padding-right: 1em;
+    font-size: 2em;
+}
+#header-img{
+    margin: 0 1em;
+    padding-left: 2em;
+}
+a {
+    text-decoration: none;
+    color: rgb(190, 123, 22);
+    font-size: 2em;
+}
+.myDiv{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+#Features{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
   }
   
-  .flex-container > div {
-    background-color: #f1f1f1;
+h1 {
+    text-align: center;
+  }
+.flex-container > div {
+    background-color: #9548d1;
     margin: 10px;
     padding: 20px;
     font-size: 30px;
